@@ -4,6 +4,20 @@ body {
     line-height: 1.5;
     font-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 
 .main-title {
@@ -30,7 +44,20 @@ body {
     font-variant-caps: petite-caps;
 }
 
-.books-list > li > span::before {
+.books-list > li > dl {
+    margin-top: 5px;
+}
+
+.books-list > li > dl dt {
+    color: gray;
+    font-size: small;
+}
+
+.books-list > li > dl dd {
+    font-variant-caps: petite-caps;
+}
+
+.books-list > li > dl {
     content: " > by ";
 }
 
