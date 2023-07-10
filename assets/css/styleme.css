@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0 20px;
+    line-height: 1.5;
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-title {
+    font-weight: lighter;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.technologies-list li, .courses-list li {
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.secondary-title {
+    margin-top: 60px;
+    font-weight: lighter;
+}
+
+.books-list > li > a {
+    font-style: oblique;
+    font-weight: 900;
+    font-variant-caps: petite-caps;
+}
+
+.books-list > li > span::before {
+    content: " > by ";
+}
+
+.moods-block {
+    width: 100%;
+    display: flex;
+}
+
+.moods-block > div {
+    width: 50%;
+    text-align: center;
+}
+
+.moods-block > div > img {
+    width: inherit;
+    inline-size: 100%;
+}
+
+.validator-paragraph {
+    margin-top: 50px;
+}
+
+.validator-paragraph a {
+    margin-left: 10px;
+    text-decoration: none;
+}
