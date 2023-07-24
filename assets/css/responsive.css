@@ -20,14 +20,19 @@
 }
 
 .main {
-    display: block;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+}
+
+.main::after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 .column {
-    width: 25%;
+    padding: 15px;
     height: 300px;
-    /*display: inline-block;*/
-    float: left;
 }
 
 .first {
@@ -36,7 +41,6 @@
 
 .second {
     background-color: rgb(98, 96, 96);
-    width: 50%;
 }
 
 .third {
