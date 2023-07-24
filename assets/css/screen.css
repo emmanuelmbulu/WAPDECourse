@@ -7,6 +7,5 @@
     .second {
         grid-column: 1 / span 2;
         grid-row: 2;
-        width: 100%;
     }
 }
