@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    .column {
+        width: 50%;
+    }
+
+    .second {
+        background-color: rgb(98, 96, 96);
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+.header {
+    padding: 10px 0;
+    background-color: aqua;
+}
+
+.header > h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.nav {
+    background-color: darkgreen;
+    color: white;
+}
+
+.nav > ul > li {
+    display: inline-block;
+    padding: 5px 15px;
+    border-right: 1px solid #000;
+}
+
+.main {
+    display: block;
+}
+
+.column {
+    width: 25%;
+    height: 300px;
+    /*display: inline-block;*/
+    float: left;
+}
+
+.first {
+    background-color: darkgrey;
+}
+
+.second {
+    background-color: rgb(98, 96, 96);
+    width: 50%;
+}
+
+.third {
+    background-color: rgb(229, 211, 211);
+}
+
+.footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer > h2 {
+    text-align: center;
+    margin: 0 auto;
+}
