@@ -21,6 +21,8 @@ window.onload = function(){
 
         redrawCircle(size, color);
         timerInterval = setInterval(circleGrowing, growRate, growthAmount);
+
+        document.querySelectorAll('input[type="number"]').forEach(function(e, i){e.value = '';});
     };
 
     timerInterval = setInterval(circleGrowing, growRate, growthAmount);
