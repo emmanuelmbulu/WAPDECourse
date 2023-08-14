@@ -11,6 +11,8 @@ $(document).ready(function() {
 
     $('#active').on('change', function() {
         drawActivate = !drawActivate;
+        if(drawActivate) $(context.canvas).addClass('drawing');
+        else $(context.canvas).removeClass('drawing');
     });
 
     $('#color').on('change', function() {
