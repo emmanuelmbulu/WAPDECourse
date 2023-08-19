@@ -57,7 +57,7 @@ console.log("Expected output of <<< const teacher = new Teacher('Emmanuel'); tea
 /**
  * Factory method
  */
-function createTeacher(name) {
+Person.createTeacher = function(name) {
     Person.prototype.teach = function(subject) {
         return `${this.name} is now teaching ${subject}`;
     }
@@ -66,7 +66,7 @@ function createTeacher(name) {
     return person;
 }
 
-const anotherTeacher = createTeacher('Clyde Ruby');
+const anotherTeacher = Person.createTeacher('Clyde Ruby');
 anotherTeacher.teach('Algorithm');
 
 console.log("Expected output of <<< const tanotherTeacher = createTeacher('Clyde Ruby'); anotherTeacher.teach('Algorithm'); >>> using the function constructor is 'Clyde Ruby is now teaching Algorithm' and  " 
